@@ -3,7 +3,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#0E90CE'
+      main: '#01aef0'
     }
   },
   overrides: {
@@ -29,7 +29,7 @@ const theme = createMuiTheme({
       root: {
         '&.profile-card': {
           padding: '10px',
-          color: '#a2826f'
+          color: '#966f62'
         },
         '&.margin-content': {
           marginTop: '24px'
@@ -39,7 +39,7 @@ const theme = createMuiTheme({
     MuiExpansionPanel: {
       root: {
         '&.work-card': {
-          color: '#a2826f',
+          color: '#966f62',
           textAlign: 'center'
         }
       }
@@ -49,7 +49,7 @@ const theme = createMuiTheme({
         '&.skill-card': {
           backgroundColor: '#ffffff',
           width: '100%',
-          color: '#a2826f',
+          color: '#966f62',
           '& .skill-header': {
             fontWieght: 'bold'
           },
@@ -64,12 +64,12 @@ const theme = createMuiTheme({
           marginTop: '48px',
           '& .main-card-header': {
             padding: '8px',
-            backgroundColor: '#f30623'
+            backgroundColor: '#f32446'
           },
           '& .main-card-content': {
-            backgroundColor: '#0E90CE',
+            backgroundColor: '#01aef0',
             padding: '16px',
-            color: '#a2826f'
+            color: '#966f62'
           }
         }
       }
@@ -106,6 +106,9 @@ const theme = createMuiTheme({
           textAlign: 'center',
           height: '50px'
         }
+      },
+      colorPrimary: {
+        color: 'white'
       }
     }
   }
